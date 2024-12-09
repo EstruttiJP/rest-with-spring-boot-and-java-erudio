@@ -4,7 +4,7 @@ export interface Book {
     launchDate: string;
     price: number;
     title: string;
-    _links: {
+    _links?: {
         self: {
             href: string;
         };

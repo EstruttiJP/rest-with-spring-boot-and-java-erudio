@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { BooksService } from './../../services/books.service';
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../../services/book.model';
@@ -17,7 +18,7 @@ export class BooksReadComponent implements OnInit {
   totalElements = 15;
   direction = 'asc';
 
-  constructor(private booksService: BooksService){}
+  constructor(private booksService: BooksService, private router: Router){}
 
   ngOnInit(): void {
       this.readBooks();
@@ -38,6 +39,10 @@ export class BooksReadComponent implements OnInit {
     this.pageSize = e.pageSize;
     this.pageIndex = e.pageIndex;
     this.readBooks();
+  }
+
+  createBook(){
+    this.router.navigate(['books/create']);
   }
 
   readBooks(){

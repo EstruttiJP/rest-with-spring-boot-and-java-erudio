@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { LoginComponent } from './views/login/login.component';
 import { BooksComponent } from './views/books/books.component';
-import { NewBooksComponent } from './views/new-books/new-books.component';
 
 import { FormsModule, ReactiveFormsModule, FormControl, Validators } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
@@ -24,6 +23,9 @@ import { MatSortModule } from '@angular/material/sort';
 import { BooksReadComponent } from './components/books-read/books-read.component';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
+import { BooksCreateComponent } from './components/books-create/books-create.component';
+import { BooksUpdateComponent } from './components/books-update/books-update.component';
+import { BooksDeleteComponent } from './components/books-delete/books-delete.component';
 
 
 registerLocaleData(localePt);
@@ -33,9 +35,11 @@ registerLocaleData(localePt);
     AppComponent,
     LoginComponent,
     BooksComponent,
-    NewBooksComponent,
     HeaderComponent,
-    BooksReadComponent
+    BooksReadComponent,
+    BooksCreateComponent,
+    BooksUpdateComponent,
+    BooksDeleteComponent
   ],
   imports: [
     BrowserModule,

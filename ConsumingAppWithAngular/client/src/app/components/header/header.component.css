@@ -1,8 +1,11 @@
 .header{
     background-color: rgb(49, 0, 95);
     height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.header, .header a{
+.header a{
     display: flex;
     align-items: center;
 }
@@ -14,10 +17,13 @@
 .header .icon i{
     padding-left: 5px;
 }
+.header .icon{
+    padding-left: 20px;
+}
 .header .user{
     color: rgb(98, 98, 255);
     font-weight: 400;
-    padding-left: 80vw;
+    padding-right: 20px;
 }
 .header .user i{
     font-size: 2.2rem;
