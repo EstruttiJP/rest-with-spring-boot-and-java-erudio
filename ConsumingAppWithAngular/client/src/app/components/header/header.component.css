@@ -1,0 +1,25 @@
+.header{
+    background-color: rgb(49, 0, 95);
+    height: 10vh;
+}
+.header, .header a{
+    display: flex;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    color: rgb(244, 244, 255);
+    font-weight: 500;
+}
+.header .icon i{
+    padding-left: 5px;
+}
+.header .user{
+    color: rgb(98, 98, 255);
+    font-weight: 400;
+    padding-left: 80vw;
+}
+.header .user i{
+    font-size: 2.2rem;
+    padding-right: 8px;
+}

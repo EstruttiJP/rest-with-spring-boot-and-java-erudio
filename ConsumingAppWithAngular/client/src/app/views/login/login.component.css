@@ -1,0 +1,11 @@
+mat-card, mat-card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+button{
+    width: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+}
