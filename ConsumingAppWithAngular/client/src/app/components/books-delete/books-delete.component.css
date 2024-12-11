@@ -1,0 +1,22 @@
+mat-card-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+mat-card-actions button {
+    width: 40%;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 20px 0 20px 0px;
+}
+
+mat-icon{
+    margin-right: 5px;
+}
+
+.delete{
+    background-color: red;
+    color: #fff;
+}

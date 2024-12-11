@@ -1,0 +1,21 @@
+mat-form-field {
+    margin: 20px;
+}
+
+mat-card-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+mat-card-actions button {
+    width: 20%;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0px 0 20px 0px;
+}
+
+mat-icon {
+    margin-right: 10px;
+}

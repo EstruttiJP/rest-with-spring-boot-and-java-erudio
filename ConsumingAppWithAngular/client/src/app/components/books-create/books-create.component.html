@@ -3,3 +3,35 @@
         <mat-icon>reply</mat-icon>
     </button>
 </mat-card-actions>
+<mat-card-content>
+    <form>
+        <mat-form-field appearance="outline">
+            <mat-label>Autor</mat-label>
+            <input matInput [(ngModel)]="book.author" name="author">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>launchDate</mat-label>
+            <input matInput [(ngModel)]="book.launchDate" name="launchDate" disabled="true">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Preço (R$)</mat-label>
+            <input matInput [(ngModel)]="book.price" name="price">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Title</mat-label>
+            <input matInput [(ngModel)]="book.title" name="title">
+        </mat-form-field>
+        <!-- 
+        id?: number;
+        author: string;
+        launchDate: string;
+        price: number;
+        title: string;
+        -->
+    </form>
+    <mat-card-actions>
+        <button mat-fab (click)="create()">Salvar
+            <mat-icon>done</mat-icon>
+        </button>
+    </mat-card-actions>
+</mat-card-content>

@@ -26,4 +26,11 @@ export class BooksDeleteComponent implements OnInit {
     this.router.navigate(['/books'])
   }
 
+  deletar() {
+    this.booksService.delete(this.book.id).subscribe(() => {
+      this.booksService.showMessage("Livro excluido com sucesso!");
+      this.router.navigate(["/books"]);
+    });
+  }
+
 }

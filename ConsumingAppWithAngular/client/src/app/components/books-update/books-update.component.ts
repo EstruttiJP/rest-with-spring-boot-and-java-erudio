@@ -25,4 +25,11 @@ export class BooksUpdateComponent implements OnInit {
   exit() {
     this.router.navigate(['/books'])
   }
+
+  update() {
+    this.booksService.update(this.book).subscribe(() => {
+      this.booksService.showMessage("Livro atualizado com sucesso!");
+      this.router.navigate(["/books"]);
+    });
+  }
 }
