@@ -2,7 +2,7 @@
 
 [![Docker Hub Repo](https://img.shields.io/docker/pulls/estruttijp/rest-with-spring-boot-erudio)](https://hub.docker.com/repository/docker/estruttijp/rest-with-spring-boot-erudio)
 
-# ConsumingAppWithAngular
+## ConsumingAppWithAngular
 
 Este repositório contém uma aplicação dividida em duas partes principais: um frontend desenvolvido em Angular que consome uma API REST de livros e autenticação, e um backend desenvolvido em Spring Boot 3 com diversas funcionalidades modernas.
 
