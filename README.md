@@ -6,10 +6,6 @@
 
 Este repositório contém uma aplicação dividida em duas partes principais: um frontend desenvolvido em Angular que consome uma API REST de livros e autenticação, e um backend desenvolvido em Spring Boot 3 com diversas funcionalidades modernas.
 
-## Estrutura do Projeto
-
-### ConsumingAppWithAngular
-
 #### `client`
 - **Descrição**: Aplicação Angular que consome a API de livros e autenticação fornecida pelo backend.
 - **Principais funcionalidades**:
@@ -38,7 +34,7 @@ Este repositório contém uma aplicação dividida em duas partes principais: um
   - Mockito e TestContainers para testes unitários
   - Swagger para documentação
 
-### DockerizingMyApplication
+## DockerizingMyApplication
 
 - **Descrição**: Contém a mesma aplicação (somente o backend), mas configurada para ser Dockerizada e publicada automaticamente no Docker Hub usando GitHub Actions.
 - **Configurações principais**:
